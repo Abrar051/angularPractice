@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <label for="" class="firstNum">First Number</label><br>
+    <input type="text" [(ngModel)]="firstNumber"><br>
+    <label for="" class="secondNum">Second Number</label><br>
+    <input type="text" [(ngModel)]="secondNumber"><br>
+    <input type="submit" (click)="add()" value="Add">
+    <input type="submit" (click)="sub()" value="Sub">
+    <input type="submit" (click)="multiply()" value="Multiply">
+    <input type="submit" (click)="divide()" value="Divide">
+    <p>
+        Result is : {{this.result}}
+    </p>
+</body>
+</html>
