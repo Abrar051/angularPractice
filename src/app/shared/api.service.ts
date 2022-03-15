@@ -20,7 +20,7 @@ export class ApiService {
 
   getEmployee ()
   {
-    return this.http.get<any>("http://localhost:3000/posts")
+    return this.http.get<any>("http://localhost:3000/get")
     .pipe(map((res:any)=>{
       return res;
     }))

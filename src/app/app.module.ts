@@ -8,6 +8,7 @@ import { CalculatorComponent } from './calculator/calculator.component';
 import { AngularCrudComponent } from './angular-crud/angular-crud.component';
 import { EmployeeDashboardComponent } from './employee-dashboard/employee-dashboard.component';
 import { CalculatorAllComponent } from './calculator-all/calculator-all.component';
+import { FormPracticeComponent } from './form-practice/form-practice.component';
 
 
 @NgModule({
@@ -16,7 +17,8 @@ import { CalculatorAllComponent } from './calculator-all/calculator-all.componen
     CalculatorComponent,
     AngularCrudComponent,
     EmployeeDashboardComponent,
-    CalculatorAllComponent
+    CalculatorAllComponent,
+    FormPracticeComponent
   ],
   imports: [
     BrowserModule,
